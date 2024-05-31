@@ -1,13 +1,7 @@
-using System;
-using System.Threading.Tasks;
-using Azure;
-using Azure.Communication.Email;
 using Azure.Messaging.ServiceBus;
-using EmailProvider.Models;
 using EmailProvider.Services;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 
 namespace EmailProvider.Functions;
 
